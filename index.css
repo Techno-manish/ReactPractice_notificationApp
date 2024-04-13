@@ -1,0 +1,59 @@
+/* Write your code here. */
+.contentContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainHeading {
+  font-size: 38px;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.information {
+  background-color: #0b69ff;
+  width: 80vw;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.success {
+  background-color: #2dca73;
+  width: 80vw;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.warning {
+  background-color: #ffb800;
+  width: 80vw;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.error {
+  background-color: #ff0b37;
+  width: 80vw;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 40px;
+}
